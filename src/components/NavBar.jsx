@@ -45,13 +45,12 @@ const NavBar = () => {
             Student for the academic year 2025/2026
           </p>
         </div>
-        <div className="">
-          <img className="h-40" src={pic1} alt="" />
-          <div className="flex">
-            {" "}
-            <img className="h-30" src={pic2} alt="" />
-            <img className="h-30" src={pic3} alt="" />
-            <img className="h-30" src={pic4} alt="" />
+        <div className="flex flex-col gap-3 overflow-hidden">
+          <img className="h-50 rounded-2xl" src={pic1} alt="" />
+          <div className="flex gap-2">
+            <img className="h-30 rounded-2xl" src={pic2} alt="" />
+            <img className="h-30 rounded-2xl" src={pic3} alt="" />
+            <img className="h-30 rounded-2xl" src={pic4} alt="" />
           </div>
         </div>
       </section>
