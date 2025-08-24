@@ -44,7 +44,16 @@ const NavBar = () => {
           <p className="text-2xl text-yellow-600 font-semibold mt-2">
             Student for the academic year 2025/2026
           </p>
+          <div className=" my-6  space-x-10 font-semibold text-lg">
+            <button className="text-green-500 border-2 border-green-500 p-2 rounded-lg">
+              Learn More
+            </button>
+            <button className="bg-green-500 text-white p-2 rounded-lg">
+              All students
+            </button>
+          </div>
         </div>
+
         <div className="flex flex-col gap-3 overflow-hidden">
           <img className="h-50 rounded-2xl" src={pic1} alt="" />
           <div className="flex gap-2">
